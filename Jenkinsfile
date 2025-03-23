@@ -20,7 +20,7 @@ pipeline {
     }
 
     stages {
-        stage('Builds') {
+        stage('Buildded') {
             steps {
                sh 'mvn clean install -U -DskipTests -Dmaven.repo.local=~/.m2/repository'
                }
